@@ -1,0 +1,24 @@
+{
+  "name": "react-ui-wow-2",
+  "version": "0.0.1",
+  "description": "A react wow animation library",
+  
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.4",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.2.1",
+    "react": "^18.2.0",
+    "rollup": "^3.28.1"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "type": "module"
+}
